@@ -81,16 +81,40 @@ function App() {
         <h2 className='bordeado font-semibold border-gray-400 border-brown-500 text-center md:text-2xl  w-1/4'>11 HS</h2>
 
       </motion.div>
-      <div>
+      <motion.div
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: true, amount: 0.5 }}
+        transition={{ delay: 0.5, duration: 0.5 }}
+        variants={
+          {
+            hidden: { opacity: 0, y: 50 },
+            visible: { opacity: 1, y: 0 }
+          }
+        }
+      >
         <h3 className='text-sm mt-4 text-center'>La misa sera en Parroquia San Cayetano</h3>
-      </div>
-      <div className='md:hidden'>
+      </motion.div>
+      <div
+
+        className='md:hidden'>
         <img className='w-1/3 absolute bottom-0 right-0' src="/flor__abajo__derecha.png" alt="" />
       </div>
-      <div className='flex justify-center items-center mt-6'>
+      <motion.div
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: true, amount: 0.5 }}
+        transition={{ delay: 0.5, duration: 0.5 }}
+        variants={
+          {
+            hidden: { opacity: 0, y: 50 },
+            visible: { opacity: 1, y: 0 }
+          }
+        }
+        className='flex justify-center items-center mt-6'>
 
         <img className='w-1/12 md:w-1/12' src="/paloma.png" alt="" />
-      </div>
+      </motion.div>
       <motion.div
         initial="hidden"
         whileInView="visible"
