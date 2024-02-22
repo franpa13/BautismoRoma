@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    background-image: url("/fondo__roma .jpeg");
+
+}
+
+p {
+    font-family: "Hind Siliguri", sans-serif;
+    font-weight: 300;
+
+    font-size: small;
+    color: rgb(168, 131, 81);
+    letter-spacing: 4px;
+
+}
+
+h1 {
+    font-family: "Cedarville Cursive", cursive;
+    font-weight: 100px;
+    font-size: 100px;
+    color: rgb(168, 131, 81);
+
+}
+
+h2,
+span,
+h3 {
+    color: rgb(168, 131, 81);
+}
+
+.direccion {
+    font-size: 10px;
+}
+
+.confirmacion {
+    color: rgb(168, 131, 81);
+}
+
+.ubi {
+    color: rgb(168, 131, 81);
+}
+
+.bordeado {
+    border-bottom: 2px solid rgb(168, 131, 81);
+    border-top: 2px solid rgb(168, 131, 81);
+}
