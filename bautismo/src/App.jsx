@@ -98,7 +98,7 @@ function App() {
           }
         }
       >
-        <h3 className='text-sm mt-4 text-center'>La misa sera en Parroquia Espiritu Santo</h3>
+        <h3 className='text-sm mt-4 font-semibold text-center'>La misa será en Parroquia Espiritu Santo a hs 9:30</h3>
       </motion.div>
 
       <motion.div
@@ -132,13 +132,13 @@ function App() {
 
           <div className='flex w-full flex-col justify-center  items-start md:w-1/2  md:items-center'>
             <a className='w-full font-semibold gap-1  flex justify-start items-center md:justify-center' target='_blank' href="https://wa.link/dfjyq9">
-              <span className='text-start md:text-2xl'>Confirmar asistencia aqui</span>
+              <span className='text-start text-semibold md:text-2xl'>Confirmar asistencia aqui</span>
               <GiClick className='text-2xl confirmacion md:text-2xl' />
             </a>
           </div>
           <div className=' flex flex-col mt-4 gap-4 md:w-1/2 md:justify-center md:items-center'>
             <a target='_blank' className='flex gap-1 justify-start items-center md:justify-center' href="https://maps.app.goo.gl/RQNUYiYpcWTWXXLw9">
-              <span className='text-center font-semibold md:text-2xl'>Ubicacion aqui</span>
+              <span className='text-center text-semibold  font-semibold md:text-2xl'>Ubicacion aqui</span>
               <FaLocationDot className='text-xl  ubi md:text-2xl' />
             </a>
             <span className='text-xs w-full md:text-lgl md:text-center'>Av.Hipolito Yrigoyen(Salon de eventos kiara's)-Palpala</span>
